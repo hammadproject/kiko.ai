@@ -1,0 +1,171 @@
+{
+  "title": "Fixora Home Repair Demo Call",
+  "audioFile": "fixora-demo-stereo.wav",
+  "durationSeconds": 175.447,
+  "participants": {
+    "assistant": "Mia",
+    "customer": "Alex Carter"
+  },
+  "messages": [
+    {
+      "id": 1,
+      "speaker": "assistant",
+      "label": "Mia",
+      "start": 0.863,
+      "end": 3.983,
+      "text": "Thanks for calling Fixora Home Repair. This is Mia. How can I help you today?"
+    },
+    {
+      "id": 2,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 6.367,
+      "end": 9.247,
+      "text": "Hi Mia, I'd like to book a plumber for a leaking kitchen sink, please."
+    },
+    {
+      "id": 3,
+      "speaker": "assistant",
+      "label": "Mia",
+      "start": 11.663,
+      "end": 19.223,
+      "text": "Absolutely. I can help with that. Could you give me a brief description of what's happening with the kitchen sink leak? For example, is it dripping from the faucet, under the sink, or somewhere else?"
+    },
+    {
+      "id": 4,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 22.687,
+      "end": 26.167,
+      "text": "Sure. The leak seems to be coming from under the sink, not the faucet itself."
+    },
+    {
+      "id": 5,
+      "speaker": "assistant",
+      "label": "Mia",
+      "start": 28.583,
+      "end": 51.083,
+      "text": "Thanks for clarifying. So you have a leak coming from underneath the kitchen sink. That's something our technicians commonly work on. Our standard service visit is $70. That includes the technician's call-out, inspection, and the first hour of labor. Many common repairs can be completed within that first hour. If more time, parts, or materials are needed, the technician will explain the cost and get your approval before continuing. Would you like me to check availability for a plumber?"
+    },
+    {
+      "id": 6,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 55.867,
+      "end": 59.527,
+      "text": "Thank you for explaining the price. Yes, please check availability for a plumber."
+    },
+    {
+      "id": 7,
+      "speaker": "assistant",
+      "label": "Mia",
+      "start": 61.763,
+      "end": 64.823,
+      "text": "Great. I'll check availability for a plumber. What date and time would you prefer for the visit?"
+    },
+    {
+      "id": 8,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 67.147,
+      "end": 70.207,
+      "text": "I prefer October 3, 2026 at 10:00 AM if possible."
+    },
+    {
+      "id": 9,
+      "speaker": "assistant",
+      "label": "Mia",
+      "start": 72.323,
+      "end": 80.663,
+      "text": "Thank you. Just to confirm, that's October 3, 2026 at 10:00 AM in the morning. Do you have a preferred plumber, or should I check for any available technician?"
+    },
+    {
+      "id": 10,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 82.747,
+      "end": 84.247,
+      "text": "Any available technician is fine, thank you."
+    },
+    {
+      "id": 11,
+      "speaker": "assistant",
+      "label": "Mia",
+      "start": 87.083,
+      "end": 87.503,
+      "text": "Please hold on."
+    },
+    {
+      "id": 12,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 88.627,
+      "end": 88.927,
+      "text": "Sure, I'll wait."
+    },
+    {
+      "id": 13,
+      "speaker": "assistant",
+      "label": "Mia",
+      "start": 91.463,
+      "end": 101.003,
+      "text": "Thanks for your patience. A plumber is available on October 3, 2026 at 10:00 AM. To complete your booking, may I have your full name, phone number, and the complete address where the service is needed?"
+    },
+    {
+      "id": 14,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 104.407,
+      "end": 112.267,
+      "text": "Of course. My name is Alex Carter. My phone number is 5551234567. And the address is 24 Oak Lane, Springfield."
+    },
+    {
+      "id": 15,
+      "speaker": "assistant",
+      "label": "Mia",
+      "start": 115.943,
+      "end": 138.623,
+      "text": "Thank you, Alex. Here's a quick summary: Name: Alex Carter. Phone: 555 123 4567. Address: 24 Oak Lane, Springfield. Service: Plumbing. Date: October 3, 2026. Time: 10:00 AM. Technician: any available technician. Issue: leak under the kitchen sink. Would you like me to confirm this booking?"
+    },
+    {
+      "id": 16,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 140.407,
+      "end": 141.367,
+      "text": "Yes, please confirm the booking."
+    },
+    {
+      "id": 17,
+      "speaker": "assistant",
+      "label": "Mia",
+      "start": 149.243,
+      "end": 161.543,
+      "text": "Your booking is confirmed. The booking ID is FX-4119. Please save this ID for reference. Your plumber will arrive on October 3, 2026 at 10:00 AM. Is there anything else I can help you with today?"
+    },
+    {
+      "id": 18,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 165.547,
+      "end": 167.167,
+      "text": "No, that's all. Thank you very much for your help."
+    },
+    {
+      "id": 19,
+      "speaker": "assistant",
+      "label": "Mia",
+      "start": 169.463,
+      "end": 174.203,
+      "text": "You're welcome. Your booking is all set. If you need anything else, just let us know. Thanks for calling Fixora."
+    },
+    {
+      "id": 20,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 175.327,
+      "end": 175.447,
+      "text": "Goodbye."
+    }
+  ]
+}

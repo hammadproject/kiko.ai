@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+ui/node_modules/
+
+# next.js
+ui/.next/
+ui/out/
+
+# environment variables
+.env*
+!.env.example
+ui/.env*
+!ui/.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# build output
+ui/dist/
