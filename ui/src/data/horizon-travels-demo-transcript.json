@@ -1,0 +1,203 @@
+{
+  "title": "Horizon Travels Demo Call",
+  "audioFile": "travel-agent-call-agent.wav",
+  "durationSeconds": 173.787,
+  "participants": {
+    "assistant": "Zoe",
+    "customer": "James Carter"
+  },
+  "messages": [
+    {
+      "id": 1,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 0.798,
+      "end": 9.0,
+      "text": "Hello. Thank you for calling Horizon Travels. This is Zoe. We plan and book holiday packages for families, couples, and adventure travelers. How can I help you today?"
+    },
+    {
+      "id": 2,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 9.6,
+      "end": 16.0,
+      "text": "Hello, Zoey. I would like to plan a family trip to Dubai for four people."
+    },
+    {
+      "id": 3,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 16.276,
+      "end": 20.2,
+      "text": "Great choice. How many days are you planning for your trip to Dubai?"
+    },
+    {
+      "id": 4,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 20.477,
+      "end": 23.5,
+      "text": "We are planning for five days."
+    },
+    {
+      "id": 5,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 23.795,
+      "end": 29.2,
+      "text": "Thanks. What is your total budget in USD for the whole group for this five day trip?"
+    },
+    {
+      "id": 6,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 29.517,
+      "end": 33.3,
+      "text": "Our total budget is about four thousand dollars."
+    },
+    {
+      "id": 7,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 33.595,
+      "end": 40.8,
+      "text": "Thank you. Let me check available family packages for four people in Dubai for five days within a four thousand dollar budget. One moment, please."
+    },
+    {
+      "id": 8,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 41.076,
+      "end": 59.8,
+      "text": "I found two packages for your family in Dubai, a five day Dubai Family Escape at nine hundred dollars per person, totaling three thousand six hundred dollars, and a four day Dubai Budget Explorer at five hundred twenty dollars per person, totaling two thousand eighty dollars. Would you like to hear more about either?"
+    },
+    {
+      "id": 9,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 60.117,
+      "end": 65.8,
+      "text": "I like the five day Dubai family escape package. Could you tell me what you need from me to book it?"
+    },
+    {
+      "id": 10,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 66.637,
+      "end": 72.2,
+      "text": "To start your booking for the Dubai Family Escape, may I have the full name of the main traveler, please?"
+    },
+    {
+      "id": 11,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 72.519,
+      "end": 75.8,
+      "text": "The full name is James Carter."
+    },
+    {
+      "id": 12,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 76.157,
+      "end": 80.4,
+      "text": "Thanks, James Carter. Could you please provide the phone number we can use to reach you?"
+    },
+    {
+      "id": 13,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 80.68,
+      "end": 86.2,
+      "text": "Sure, it's four one five five five five zero one three two."
+    },
+    {
+      "id": 14,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 86.508,
+      "end": 94.2,
+      "text": "Got it. Four one five five five five zero one three two. What email address should I use to send your booking confirmation?"
+    },
+    {
+      "id": 15,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 94.517,
+      "end": 98.7,
+      "text": "Please send it to James Carter at Gmail dot com."
+    },
+    {
+      "id": 16,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 98.997,
+      "end": 104.3,
+      "text": "Thank you, James. Just to confirm, your email is James Carter at Gmail dot com. Correct?"
+    },
+    {
+      "id": 17,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 104.56,
+      "end": 108.9,
+      "text": "No, it's James Carter at gmail dot com."
+    },
+    {
+      "id": 18,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 109.157,
+      "end": 118.0,
+      "text": "Thanks for correcting that to james carter at gmail dot com. What is your preferred travel start date for the Dubai family escape? It must be a future date."
+    },
+    {
+      "id": 19,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 118.316,
+      "end": 122.4,
+      "text": "The travel start date is the fifteenth of next month."
+    },
+    {
+      "id": 20,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 122.675,
+      "end": 145.9,
+      "text": "So your travel start date is November fifteenth twenty twenty six. Let me read back your booking details. Dubai Family Escape package for five days, four travelers, total price three thousand six hundred dollars under the name James Carter. Phone number four one five five five zero one three two. Email James Carter at Gmail dot com. Travel date November fifteenth twenty twenty six. Shall I confirm this booking?"
+    },
+    {
+      "id": 21,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 146.2,
+      "end": 154.9,
+      "text": "Yes. Please confirm."
+    },
+    {
+      "id": 22,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 155.117,
+      "end": 168.8,
+      "text": "Your booking ID is BK-2610002-197. A confirmation email is on its way, and a consultant will share payment details soon. Is there anything else I can help you with?"
+    },
+    {
+      "id": 23,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 169.08,
+      "end": 172.5,
+      "text": "That is everything. Thank you for the great help. Goodbye."
+    },
+    {
+      "id": 24,
+      "speaker": "assistant",
+      "label": "Zoe",
+      "start": 172.733,
+      "end": 173.787,
+      "text": "Goodbye."
+    }
+  ]
+}

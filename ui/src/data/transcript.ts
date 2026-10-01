@@ -1,5 +1,6 @@
 import fixoraTranscriptSource from "./fixora-demo-transcript.json";
 import aspenParkTranscriptSource from "./aspen-park-dental-demo-transcript.json";
+import horizonTravelsTranscriptSource from "./horizon-travels-demo-transcript.json";
 
 export type Speaker = "assistant" | "customer";
 
@@ -75,6 +76,7 @@ function parseTranscript(value: unknown): DemoTranscript {
 
 export const fixoraTranscript = parseTranscript(fixoraTranscriptSource);
 export const aspenParkTranscript = parseTranscript(aspenParkTranscriptSource);
+export const horizonTravelsTranscript = parseTranscript(horizonTravelsTranscriptSource);
 
 export const voiceDemos: VoiceDemo[] = [
   {
@@ -92,5 +94,13 @@ export const voiceDemos: VoiceDemo[] = [
     assistantName: "Daniel — Dental Reception Assistant",
     scenario: "New-patient appointment booking",
     transcriptData: aspenParkTranscript,
+  },
+  {
+    id: "travel-agency",
+    category: "Travel Agency",
+    company: "Horizon Travels",
+    assistantName: "Zoe — Travel Booking Assistant",
+    scenario: "Family holiday package booking",
+    transcriptData: horizonTravelsTranscript,
   },
 ];

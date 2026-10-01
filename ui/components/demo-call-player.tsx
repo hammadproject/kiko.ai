@@ -95,7 +95,7 @@ export function DemoCallPlayer() {
                 setPlaying(false);
                 setHasStarted(false);
                 setEnded(false);
-                setFollowSignal(0);
+                setFollowSignal((prev) => prev + 1);
               }
             }}
             className={cn(
