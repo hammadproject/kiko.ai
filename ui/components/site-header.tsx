@@ -18,10 +18,12 @@ export function SiteHeader() {
   return (
     <header className="relative z-30 border-b border-transparent">
       <div className="site-container flex h-[84px] items-center justify-between">
-        <a href="#home" className="flex items-center gap-3 text-2xl font-bold tracking-[-0.04em]" aria-label="kiko.ai home">
-          <WaveformMark className="h-9 scale-75" />
-          <span>kiko.ai</span>
-        </a>
+        <div className="flex flex-1 items-center justify-start">
+          <a href="#home" className="flex w-fit items-center gap-3 text-2xl font-bold tracking-[-0.04em]" aria-label="kiko.ai home">
+            <WaveformMark className="h-9 scale-75" />
+            <span>kiko.ai</span>
+          </a>
+        </div>
 
         <nav aria-label="Primary navigation" className="hidden md:block">
           <ul className="flex items-center gap-12 text-sm font-medium">
@@ -33,20 +35,22 @@ export function SiteHeader() {
           </ul>
         </nav>
 
-        <Button asChild variant="outline" className="hidden md:inline-flex">
-          <a href="#contact">Book a Consultation</a>
-        </Button>
+        <div className="flex flex-1 items-center justify-end">
+          <Button asChild variant="outline" className="hidden md:inline-flex">
+            <a href="#contact">Book a Consultation</a>
+          </Button>
 
-        <button
-          type="button"
-          className="grid size-11 place-items-center rounded-[10px] border border-foreground md:hidden"
-          aria-expanded={open}
-          aria-controls="mobile-navigation"
-          aria-label={open ? "Close menu" : "Open menu"}
-          onClick={() => setOpen((value) => !value)}
-        >
-          {open ? <X size={20} /> : <Menu size={20} />}
-        </button>
+          <button
+            type="button"
+            className="grid size-11 place-items-center rounded-[10px] border border-foreground md:hidden"
+            aria-expanded={open}
+            aria-controls="mobile-navigation"
+            aria-label={open ? "Close menu" : "Open menu"}
+            onClick={() => setOpen((value) => !value)}
+          >
+            {open ? <X size={20} /> : <Menu size={20} />}
+          </button>
+        </div>
       </div>
 
       {open && (

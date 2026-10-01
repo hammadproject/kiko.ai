@@ -1,4 +1,5 @@
-import transcriptSource from "./fixora-demo-transcript.json";
+import fixoraTranscriptSource from "./fixora-demo-transcript.json";
+import aspenParkTranscriptSource from "./aspen-park-dental-demo-transcript.json";
 
 export type Speaker = "assistant" | "customer";
 
@@ -18,6 +19,15 @@ export interface DemoTranscript {
   participants: { assistant: string; customer: string };
   messages: TranscriptMessage[];
 }
+
+export type VoiceDemo = {
+  id: string;
+  category: string;
+  company: string;
+  assistantName: string;
+  scenario: string;
+  transcriptData: DemoTranscript;
+};
 
 function isMessage(value: unknown): value is TranscriptMessage {
   if (!value || typeof value !== "object") return false;
@@ -63,4 +73,24 @@ function parseTranscript(value: unknown): DemoTranscript {
   };
 }
 
-export const demoTranscript = parseTranscript(transcriptSource);
+export const fixoraTranscript = parseTranscript(fixoraTranscriptSource);
+export const aspenParkTranscript = parseTranscript(aspenParkTranscriptSource);
+
+export const voiceDemos: VoiceDemo[] = [
+  {
+    id: "home-services",
+    category: "Home Services",
+    company: "Fixora Home Repair",
+    assistantName: "Mia — Home Services Assistant",
+    scenario: "Plumbing service booking",
+    transcriptData: fixoraTranscript,
+  },
+  {
+    id: "dental-clinic",
+    category: "Dental Clinic",
+    company: "Aspen Park Dental Care",
+    assistantName: "Daniel — Dental Reception Assistant",
+    scenario: "New-patient appointment booking",
+    transcriptData: aspenParkTranscript,
+  },
+];

@@ -17,11 +17,11 @@ const benefits = [
     description: "Checks availability, gathers the right details, and confirms the next step while the caller is still on the line.",
     visual: (
       <div className="flex h-28 items-center" aria-hidden="true">
-        <div className="flex w-full max-w-[330px] items-center gap-4 rounded-[10px] border border-foreground/60 px-4 py-3">
-          <span className="whitespace-nowrap text-lg">10:00 AM</span>
-          <span className="h-8 w-px bg-border" />
-          <span className="ml-auto rounded-lg bg-signal/40 px-3 py-2 text-sm font-semibold">Confirmed</span>
-          <span className="grid size-8 shrink-0 place-items-center rounded-full bg-signal-strong"><Check size={18} strokeWidth={3} /></span>
+        <div className="flex w-full max-w-[330px] items-center gap-2.5 sm:gap-4 rounded-[10px] border border-foreground/60 px-3 py-2.5 sm:px-4 sm:py-3">
+          <span className="whitespace-nowrap text-base sm:text-lg">10:00 AM</span>
+          <span className="h-8 w-px shrink-0 bg-border" />
+          <span className="ml-auto rounded-lg bg-signal/40 px-2.5 py-1.5 text-xs font-semibold sm:px-3 sm:py-2 sm:text-sm">Confirmed</span>
+          <span className="grid size-7 shrink-0 place-items-center rounded-full bg-signal-strong sm:size-8"><Check className="size-4 sm:size-[18px]" strokeWidth={3} /></span>
         </div>
       </div>
     ),

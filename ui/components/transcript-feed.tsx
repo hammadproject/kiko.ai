@@ -11,6 +11,7 @@ interface TranscriptFeedProps {
   currentTime: number;
   hasStarted: boolean;
   followSignal: number;
+  assistantName?: string;
 }
 
 function formatTimestamp(seconds: number) {
@@ -19,7 +20,7 @@ function formatTimestamp(seconds: number) {
   return `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
 }
 
-export function TranscriptFeed({ messages, currentTime, hasStarted, followSignal }: TranscriptFeedProps) {
+export function TranscriptFeed({ messages, currentTime, hasStarted, followSignal, assistantName = "Assistant" }: TranscriptFeedProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const activeRef = useRef<HTMLDivElement>(null);
   const autoFollowRef = useRef(true);
@@ -98,7 +99,7 @@ export function TranscriptFeed({ messages, currentTime, hasStarted, followSignal
               </span>
               <div className={cn("max-w-[78%]", !assistant && "text-right")}>
                 <div className={cn("mb-1.5 flex items-center gap-3 text-xs", !assistant && "justify-end")}>
-                  <strong className="text-[13px] text-foreground">{assistant ? "Mia — kiko.ai" : "Customer"}</strong>
+                  <strong className="text-[13px] text-foreground">{assistant ? assistantName : "Customer"}</strong>
                   <time className="text-muted">{formatTimestamp(message.start)}</time>
                 </div>
                 <p className={cn("rounded-xl border px-4 py-3 text-left text-sm leading-6 sm:text-[15px]", assistant ? "border-transparent bg-[#f0f0ec]" : "border-border bg-white", active && "border-signal-strong")}>

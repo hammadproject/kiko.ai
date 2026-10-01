@@ -1,0 +1,139 @@
+{
+  "title": "Aspen Park Dental Care Demo Call",
+  "audioFile": "aspen-park-dental-demo-stereo.wav",
+  "durationSeconds": 174.126,
+  "participants": {
+    "assistant": "Daniel",
+    "customer": "Alex Morgan"
+  },
+  "messages": [
+    {
+      "id": 1,
+      "speaker": "assistant",
+      "label": "Daniel",
+      "start": 1.01,
+      "end": 4.61,
+      "text": "Thanks for calling Aspen Park Dental Care. This is Daniel. How can I help you today?"
+    },
+    {
+      "id": 2,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 7.506,
+      "end": 17.166,
+      "text": "Hi Daniel, I'd like to schedule an appointment with Dr. Maya Collins. I've been experiencing sensitivity when drinking something cold. Is she available on Tuesday, October 6 at 11:00 AM?"
+    },
+    {
+      "id": 3,
+      "speaker": "assistant",
+      "label": "Daniel",
+      "start": 19.91,
+      "end": 27.41,
+      "text": "Thanks for sharing your concern. Tooth sensitivity to cold is something the clinic regularly assesses. Are you a new patient, or have you visited us before?"
+    },
+    {
+      "id": 4,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 29.706,
+      "end": 30.606,
+      "text": "I'm a new patient."
+    },
+    {
+      "id": 5,
+      "speaker": "assistant",
+      "label": "Daniel",
+      "start": 33.95,
+      "end": 47.45,
+      "text": "Got it, thank you. For a new patient exam, the fee is $110. This covers a comprehensive dental evaluation with Dr. Collins. Would you like to hear what else is included, or should I check her availability for Tuesday, October 6 at 11:00 AM?"
+    },
+    {
+      "id": 6,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 49.926,
+      "end": 53.766,
+      "text": "That sounds good. Please check her availability for Tuesday, October 6 at 11:00 AM."
+    },
+    {
+      "id": 7,
+      "speaker": "assistant",
+      "label": "Daniel",
+      "start": 63.23,
+      "end": 72.17,
+      "text": "Dr. Maya Collins is available for a new patient exam on Tuesday, October 6 at 11:00 AM. May I have your full name and phone number to continue booking the appointment?"
+    },
+    {
+      "id": 8,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 74.886,
+      "end": 80.286,
+      "text": "Sure. My name is Alex Morgan, and my phone number is 555 013 4826."
+    },
+    {
+      "id": 9,
+      "speaker": "assistant",
+      "label": "Daniel",
+      "start": 83.21,
+      "end": 88.85,
+      "text": "Thank you, Alex. Do you have dental insurance you'd like to use for this visit? If so, please share the provider's name. If not, just let me know."
+    },
+    {
+      "id": 10,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 94.326,
+      "end": 97.026,
+      "text": "Yes, I have dental insurance. My provider is Delta Dental."
+    },
+    {
+      "id": 11,
+      "speaker": "assistant",
+      "label": "Daniel",
+      "start": 100.37,
+      "end": 122.21,
+      "text": "Thanks for sharing your insurance provider. To confirm, here's your appointment summary: name Alex Morgan, phone 555 013 4826, new patient, new patient exam with Dr. Maya Collins, Tuesday, October 6 at 11:00 AM, sensitivity to cold, insurance provider Delta Dental. Would you like me to confirm this appointment?"
+    },
+    {
+      "id": 12,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 124.446,
+      "end": 125.526,
+      "text": "Yes, please confirm the appointment."
+    },
+    {
+      "id": 13,
+      "speaker": "assistant",
+      "label": "Daniel",
+      "start": 136.43,
+      "end": 157.61,
+      "text": "Your appointment is confirmed. Please save this ID: DEN-7145. You're booked with Dr. Maya Collins on Tuesday, October 6 at 11:00 AM. For your first visit, arrive 10 to 15 minutes early to complete paperwork. Bring a photo ID, your insurance card, and a list of any current medications. Is there anything else I can help you with today?"
+    },
+    {
+      "id": 14,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 161.406,
+      "end": 163.566,
+      "text": "No, that's all I needed. Thank you for your help, Daniel."
+    },
+    {
+      "id": 15,
+      "speaker": "assistant",
+      "label": "Daniel",
+      "start": 166.31,
+      "end": 171.53,
+      "text": "You're very welcome, Alex. Your appointment is all set. Thanks for calling Aspen Park Dental Care. Take care."
+    },
+    {
+      "id": 16,
+      "speaker": "customer",
+      "label": "Customer",
+      "start": 174.066,
+      "end": 174.126,
+      "text": "Goodbye."
+    }
+  ]
+}
